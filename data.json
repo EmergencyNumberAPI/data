@@ -57,7 +57,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -69,17 +69,17 @@
     },
     "Ambulance": {
       "All": [
-        "17"
+        "127"
       ]
     },
     "Fire": {
       "All": [
-        "18"
+        "128"
       ]
     },
     "Police": {
       "All": [
-        "19"
+        "129"
       ]
     },
     "Dispatch": {
@@ -87,7 +87,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -159,12 +159,12 @@
     },
     "Ambulance": {
       "All": [
-        "118"
+        "118","112"
       ]
     },
     "Fire": {
       "All": [
-        "118"
+        "118","112"
       ]
     },
     "Police": {
@@ -177,7 +177,7 @@
         null
       ]
     },
-    "Member_112": true,
+    "Member_112": false,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -431,22 +431,22 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "144"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "133"
       ]
     },
     "Police": {
       "All": [
-        null
+        "133"
       ]
     },
     "Dispatch": {
       "All": [
-        "122"
+        ""
       ]
     },
     "Member_112": true,
@@ -461,17 +461,17 @@
     },
     "Ambulance": {
       "All": [
-        "03"
+        "103"
       ]
     },
     "Fire": {
       "All": [
-        "01"
+        "101"
       ]
     },
     "Police": {
       "All": [
-        "02"
+        "102"
       ]
     },
     "Dispatch": {
@@ -479,9 +479,9 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -611,17 +611,17 @@
     },
     "Ambulance": {
       "All": [
-        "03"
+        "103"
       ]
     },
     "Fire": {
       "All": [
-        "01"
+        "101","112"
       ]
     },
     "Police": {
       "All": [
-        "02"
+        "102"
       ]
     },
     "Dispatch": {
@@ -641,28 +641,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "103"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "101"
       ]
     },
     "Police": {
       "All": [
-        null
+        "102"
       ]
     },
     "Dispatch": {
-      "All": [
-        "112(GSM)",
-        " 101"
-      ]
+      "All": [""]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -722,7 +719,7 @@
     },
     "Member_112": false,
     "LocalOnly": true,
-    "Notes": false
+    "Notes": ""
   },
   {
     "Country": {
@@ -870,7 +867,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -933,6 +930,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
+    "NoData":true,
     "Notes": "Uninhabited"
   },
   {
@@ -943,12 +941,12 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "192"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "193"
       ]
     },
     "Police": {
@@ -958,10 +956,10 @@
     },
     "Dispatch": {
       "All": [
-        "911"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1048,10 +1046,10 @@
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1138,7 +1136,7 @@
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
     "Member_112": false,
@@ -1229,7 +1227,8 @@
     "Dispatch": {
       "All": [
         "911"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Member_112": false,
     "LocalOnly": false,
@@ -1379,7 +1378,7 @@
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
     "Member_112": false,
@@ -1414,6 +1413,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
+    "NoData":true,
     "Notes": ""
   },
   {
@@ -1454,22 +1454,22 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "125"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "119"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112"
       ]
     },
     "Dispatch": {
       "All": [
-        "119"
+        "123"
       ]
     },
     "Member_112": false,
@@ -1622,7 +1622,7 @@
         "911"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1666,25 +1666,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "194"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "193"
       ]
     },
     "Police": {
       "All": [
-        null
+        "192"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1771,10 +1771,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        "199"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1786,7 +1786,7 @@
     },
     "Ambulance": {
       "All": [
-        "150"
+        "155"
       ]
     },
     "Fire": {
@@ -1801,12 +1801,12 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -1816,25 +1816,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        ""
       ]
     },
     "Fire": {
       "All": [
-        null
+        ""
       ]
     },
     "Police": {
       "All": [
-        null
+        "114"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1924,7 +1924,7 @@
         "911"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -1984,7 +1984,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2101,12 +2101,12 @@
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCJECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -2194,7 +2194,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2251,10 +2251,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2281,10 +2281,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2461,10 +2461,10 @@
     },
     "Dispatch": {
       "All": [
-        "022"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2476,12 +2476,12 @@
     },
     "Ambulance": {
       "All": [
-        "112"
+        ""
       ]
     },
     "Fire": {
       "All": [
-        "112"
+        ""
       ]
     },
     "Police": {
@@ -2491,10 +2491,10 @@
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": "Y",
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2542,12 +2542,12 @@
     },
     "Fire": {
       "All": [
-        null
+        "190"
       ]
     },
     "Police": {
       "All": [
-        null
+        "199"
       ]
     },
     "Dispatch": {
@@ -2555,7 +2555,7 @@
         "999"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2582,10 +2582,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2615,7 +2615,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -2917,6 +2917,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
+    "NoData":true,
     "Notes": ""
   },
   {
@@ -2927,7 +2928,7 @@
     },
     "Ambulance": {
       "All": [
-        "113"
+        "118"
       ]
     },
     "Fire": {
@@ -2937,15 +2938,15 @@
     },
     "Police": {
       "All": [
-        "112"
+        "113"
       ]
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3004,7 +3005,8 @@
     "Dispatch": {
       "All": [
         "999"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Member_112": false,
     "LocalOnly": false,
@@ -3018,25 +3020,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "104"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "101"
       ]
     },
     "Police": {
       "All": [
-        null
+        "107"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": "Y",
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3063,10 +3065,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": "Y",
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3089,7 +3091,7 @@
     "Police": {
       "All": [
         "101",
-        " 103(Traffic accident)"
+        "103(Traffic accident)"
       ]
     },
     "Dispatch": {
@@ -3120,7 +3122,8 @@
     "Police": {
       "All": [
         "110"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Dispatch": {
       "All": [
@@ -3150,7 +3153,8 @@
     "Police": {
       "All": [
         "110"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Dispatch": {
       "All": [
@@ -3217,7 +3221,7 @@
         "999"
       ]
     },
-    "Member_112": "Y",
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3304,10 +3308,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3399,7 +3403,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
-    "Notes": ""
+    "Notes": "ToCheck"
   },
   {
     "Country": {
@@ -3409,25 +3413,26 @@
     },
     "Ambulance": {
       "All": [
-        "191"
+        "199"
       ]
     },
     "Fire": {
       "All": [
-        "193"
+        "199"
       ]
     },
     "Police": {
       "All": [
-        "192"
-      ]
+        "191"
+      ],
+      "Traffic":{"All":["190"]}
     },
     "Dispatch": {
       "All": [
-        null
+        "911"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3439,25 +3444,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "103"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "101"
       ]
     },
     "Police": {
       "All": [
-        null
+        "102"
       ]
     },
     "Dispatch": {
       "All": [
-        "03"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3607,9 +3612,9 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -3669,7 +3674,7 @@
     },
     "Member_112": false,
     "LocalOnly": true,
-    "Notes": false
+    "Notes": ""
   },
   {
     "Country": {
@@ -3679,25 +3684,25 @@
     },
     "Ambulance": {
       "All": [
-        "03"
+        "113"
       ]
     },
     "Fire": {
       "All": [
-        "01"
+        ""
       ]
     },
     "Police": {
       "All": [
-        "02"
+        "110"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3709,7 +3714,7 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "113"
       ]
     },
     "Fire": {
@@ -3719,12 +3724,12 @@
     },
     "Police": {
       "All": [
-        null
+        "110","112"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
     "Member_112": false,
@@ -3830,22 +3835,22 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "144"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "118"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112","117"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
     "Member_112": false,
@@ -3875,10 +3880,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3900,16 +3905,15 @@
     },
     "Police": {
       "All": [
-        null
+        "113"
       ]
     },
     "Dispatch": {
       "All": [
-        "112",
-        " 113"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3939,7 +3943,7 @@
         "999"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -3951,25 +3955,25 @@
     },
     "Ambulance": {
       "All": [
-        "94"
+        "194"
       ]
     },
     "Fire": {
       "All": [
-        "93"
+        "193"
       ]
     },
     "Police": {
       "All": [
-        "92"
+        1"92"
       ]
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4042,7 +4046,8 @@
     "Ambulance": {
       "All": [
         "999"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Fire": {
       "All": [
@@ -4052,11 +4057,12 @@
     "Police": {
       "All": [
         "999"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
     "Member_112": false,
@@ -4146,10 +4152,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4251,12 +4257,12 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "114"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "115"
       ]
     },
     "Police": {
@@ -4269,7 +4275,7 @@
         "999"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4382,7 +4388,8 @@
     "Police": {
       "All": [
         "902"
-      ]
+      ],
+      "GSM":["112"]
     },
     "Dispatch": {
       "All": [
@@ -4401,25 +4408,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "15"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "18"
       ]
     },
     "Police": {
       "All": [
-        null
+        "17"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4461,27 +4468,27 @@
     },
     "Ambulance": {
       "All": [
-        "94"
+        "124"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "123"
       ]
     },
     "Police": {
       "All": [
-        null
+        "122"
       ]
     },
     "Dispatch": {
       "All": [
-        null
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -4671,17 +4678,17 @@
     },
     "Ambulance": {
       "All": [
-        "228024"
+        "102"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "101"
       ]
     },
     "Police": {
       "All": [
-        "110"
+        "110","112"
       ]
     },
     "Dispatch": {
@@ -4716,10 +4723,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4751,7 +4758,8 @@
     },
     "Member_112": false,
     "LocalOnly": false,
-    "Notes": ""
+    "Notes": "",
+    "NoData":true
   },
   {
     "Country": {
@@ -4779,7 +4787,7 @@
         "111"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -4972,27 +4980,27 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "113"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "110"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112"
       ]
     },
     "Dispatch": {
       "All": [
-        "110"
+        ""
       ]
     },
-    "Member_112": "Y",
+    "Member_112": false,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
@@ -5122,7 +5130,7 @@
     },
     "Ambulance": {
       "All": [
-        "269‐9778 "
+        ""
       ]
     },
     "Fire": {
@@ -5137,10 +5145,10 @@
     },
     "Dispatch": {
       "All": [
-        null
+        "911"
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5294,6 +5302,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
+    "NoData":true,
     "Notes": ""
   },
   {
@@ -5304,26 +5313,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "999"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "998"
       ]
     },
     "Police": {
       "All": [
-        null
+        "997"
       ]
     },
     "Dispatch": {
       "All": [
-        "112",
-        "999"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5350,10 +5358,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5471,10 +5479,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5486,25 +5494,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "103"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "101"
       ]
     },
     "Police": {
       "All": [
-        null
+        "102"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5516,17 +5524,17 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "912"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "112"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112"
       ]
     },
     "Dispatch": {
@@ -5536,7 +5544,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
-    "Notes": "localnumbersonly"
+    "Notes": ""
   },
   {
     "Country": {
@@ -5788,17 +5796,17 @@
     },
     "Ambulance": {
       "All": [
-        "113"
+        "118"
       ]
     },
     "Fire": {
       "All": [
-        "116"
+        "115"
       ]
     },
     "Police": {
       "All": [
-        "112"
+        "112","113"
       ]
     },
     "Dispatch": {
@@ -5866,7 +5874,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -5878,17 +5886,17 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "15"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "18"
       ]
     },
     "Police": {
       "All": [
-        null
+        "17"
       ]
     },
     "Dispatch": {
@@ -5896,8 +5904,8 @@
         null
       ]
     },
-    "Member_112": false,
-    "LocalOnly": true,
+    "Member_112": true,
+    "LocalOnly": false,
     "Notes": false
   },
   {
@@ -5908,25 +5916,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "194"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "193"
       ]
     },
     "Police": {
       "All": [
-        null
+        "192"
       ]
     },
     "Dispatch": {
       "All": [
-        "94"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6076,7 +6084,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6098,15 +6106,15 @@
     },
     "Police": {
       "All": [
-        null
+        "113"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6269,25 +6277,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "061"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "080"
       ]
     },
     "Police": {
       "All": [
-        null
+        "091"
       ]
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6299,56 +6307,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "110"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "110"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112", "119"
       ]
     },
     "Dispatch": {
       "All": [
-        "1 691095",
-        " 699935 "
+        ""
       ]
     },
-    "Member_112": null,
-    "LocalOnly": false,
-    "Notes": null
-  },
-  {
-    "Country": {
-      "Name": null,
-      "ISOCode": ",,TOCHECK\r\n",
-      "ISONumeric": null
-    },
-    "Ambulance": {
-      "All": [
-        null
-      ]
-    },
-    "Fire": {
-      "All": [
-        null
-      ]
-    },
-    "Police": {
-      "All": [
-        null
-      ]
-    },
-    "Dispatch": {
-      "All": [
-        null
-      ]
-    },
-    "Member_112": null,
+    "Member_112": false,
     "LocalOnly": false,
     "Notes": null
   },
@@ -6495,10 +6472,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6528,7 +6505,7 @@
         null
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -6706,11 +6683,11 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
-    "LocalOnly": true,
+    "Member_112": true,
+    "LocalOnly": false,
     "Notes": false
   },
   {
@@ -6871,18 +6848,17 @@
     },
     "Ambulance": {
       "All": [
-        "101",
         "112"
       ]
     },
     "Fire": {
       "All": [
-        "102"
+        "110"
       ]
     },
     "Police": {
       "All": [
-        "100"
+        "155"
       ]
     },
     "Dispatch": {
@@ -7052,26 +7028,25 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "998"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "997"
       ]
     },
     "Police": {
       "All": [
-        null
+        "999"
       ]
     },
     "Dispatch": {
       "All": [
-        "998",
-        "999"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -7101,7 +7076,7 @@
         "999"
       ]
     },
-    "Member_112": "true",
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
@@ -7249,10 +7224,10 @@
     },
     "Dispatch": {
       "All": [
-        "112"
+        ""
       ]
     },
-    "Member_112": false,
+    "Member_112": true,
     "LocalOnly": false,
     "Notes": ""
   },
