@@ -1372,9 +1372,11 @@
     },
     "Police": {
       "All": [
-        "110",
-        " 122(Traffic)"
+        "110"
       ]
+    },
+    "Traffic": {
+      "All":["122"]
     },
     "Dispatch": {
       "All": [
@@ -3090,9 +3092,11 @@
     },
     "Police": {
       "All": [
-        "101",
-        "103(Traffic accident)"
+        "101"
       ]
+    },
+    "Traffic":{
+      "All":["103"]
     },
     "Dispatch": {
       "All": [
@@ -3424,9 +3428,9 @@
     "Police": {
       "All": [
         "191"
-      ],
-      "Traffic":{"All":["190"]}
+      ]
     },
+    "Traffic":{"All":["190"]},
     "Dispatch": {
       "All": [
         "911"
