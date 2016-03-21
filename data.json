@@ -1639,14 +1639,14 @@
     },
     "Fire": {
       "All": [
-        "110",
-        " 111",
-        " 170"
+        "180",
       ]
     },
     "Police": {
       "All": [
-        "180"
+        "110",
+        "111",
+        "170"
       ]
     },
     "Dispatch": {
@@ -1656,7 +1656,7 @@
     },
     "Member_112": false,
     "LocalOnly": false,
-    "Notes": "TOCHECK"
+    "Notes": ""
   },
   {
     "Country": {
