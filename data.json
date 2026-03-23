@@ -5345,17 +5345,17 @@
     },
     "Ambulance": {
       "All": [
-        null
+        "112"
       ]
     },
     "Fire": {
       "All": [
-        null
+        "112"
       ]
     },
     "Police": {
       "All": [
-        null
+        "112"
       ]
     },
     "Dispatch": {
